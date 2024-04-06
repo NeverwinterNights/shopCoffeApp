@@ -44,13 +44,10 @@ export const ImageBackgroundInfo = ({
                                         ImageBackgroundInfoPropsType
     ) => {
         const insets = useSafeAreaInsets();
-        console.log("imagelink_portrait", imagelink_portrait)
         return (
             <View>
                 <ImageBackground
                     source={images[imagelink_portrait]}
-                    // source={require('../assets/coffee_assets/americano/portrait/americano_pic_1_portrait.png')}
-                    // source={require('../assets/coffee_assets/americano/portrait/americano_pic_1_portrait.png')}
                     style={styles.itemBackgroundImage}>
                     {enableBackHandler ? (
                         <View style={[styles.imageHeaderBarContainerWithBack, {paddingTop: insets.top}]}>

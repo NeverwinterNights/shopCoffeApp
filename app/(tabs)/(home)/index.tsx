@@ -89,7 +89,7 @@ const Index = () => {
                                      index,
                                      name,
                                      roasted,
-                                     imagelink_square,
+                                     imageLink:imagelink_square,
                                      special_ingredient,
                                      type,
                                      prices,
